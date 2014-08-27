@@ -27,6 +27,8 @@ dependencies {
 
 Code
 ====
+
+a fragment:
 ```java
 public class DownloadFragment extends Fragment {
 
@@ -68,6 +70,27 @@ public class DownloadFragment extends Fragment {
         super.onDestroy();
     }
 }
+```
+
+it's layout:
+```xml
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+    <fr.letroll.rxdownloader.viewcustom.DownloadView
+        android:id="@+id/dl_0"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+</RelativeLayout>
 ```
 
 Authors and contributors
