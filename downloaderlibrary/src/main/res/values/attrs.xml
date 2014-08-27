@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DownloadView">
+        <attr name="downloadView_url" format="string" />
+        <attr name="downloadView_filename" format="string" />
+        <attr name="downloadView_typeface" format="string" />
+        <attr name="downloadView_text_title_color" format="string" />
+        <attr name="downloadView_text_progress_color" format="string" />
+        <attr name="downloadView_progress_color" format="string" />
+    </declare-styleable>
+</resources>

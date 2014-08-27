@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">rxdownloader</string>
+    <string name="url_to_download">URL to Download</string>
+    <string name="filename">Filename</string>
+    <string name="zero_bytes">0B</string>
+    <string name="download">Download</string>
+    <string name="download_complete">Download complete</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="resume">Resume</string>
+</resources>
